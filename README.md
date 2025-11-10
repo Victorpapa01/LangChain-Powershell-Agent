@@ -2,6 +2,8 @@
 
 A powerful LangChain v1 agent that executes PowerShell commands on Windows based on natural language instructions.
 
+![PowerShell Agent CLI](media/PowershellAgent.png)
+
 ## Features
 
 - **Beautiful CLI Interface**: Polished terminal UI with ASCII art banner, colors, and formatted panels
@@ -79,8 +81,10 @@ run_agent("List all running Python processes")
 
 The agent features a beautiful terminal interface powered by the Rich library:
 
+![Agent Output Example](media/AgentOutput.png)
+
 ### Visual Elements
-- **ASCII Art Banner**: Eye-catching "POWERSHELL AGENT" banner in cyan
+- **ASCII Art Banner**: Eye-catching "POWERSHELL AGENT" banner in purple/magenta
 - **Information Panel**: Shows the agent description and tech stack
 - **Configuration Table**: Displays model, rate limits, and settings
 - **Example Queries**: Quick-start examples for new users
