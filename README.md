@@ -143,6 +143,8 @@ model = init_chat_model(
 
 ## Architecture
 
+![Architecture Diagram](media/Architecture.png)
+
 ```
 PowershellAgent.py
 ├── Environment Setup (.env loading)
